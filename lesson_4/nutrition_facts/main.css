@@ -1,0 +1,58 @@
+body {
+  box-sizing: border-box;
+  border: 3px solid black;
+  font-family: Helvetica, Arial, sans;
+  width: 650px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  padding: 0 15px;
+}
+
+thead th {
+  font-size: 5.25rem;
+  text-align: left;
+}
+
+thead td {
+  font-size: 1.5rem;
+}
+
+tbody {
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+tbody td,
+tfoot tr:nth-child(2) {
+  border-bottom: 1px solid gray;
+}
+
+tbody tr:nth-child(1) {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.thick-border {
+  background-color: black;
+  padding: 0.75rem;
+}
+
+.thin-border {
+  background-color: black;
+  padding: 0.35rem;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.sub-heading {
+  padding-left: 30px;
+}

@@ -1,0 +1,28 @@
+body {
+  max-width: 600px;
+  margin-left: 25px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.afternoon {
+  color: blue;
+}
+
+.evening {
+  color: purple;
+}
+
+.morning-activities {
+  font-weight: bold;
+}
+
+.afternoon-activities {
+  font-style: italic;
+}
+
+li {
+  list-style: none;
+}
