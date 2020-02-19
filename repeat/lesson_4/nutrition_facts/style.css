@@ -35,6 +35,10 @@ main dl {
   width: 100%;
 }
 
+main dl dt {
+  display: inline-block;
+}
+
 main dl dd {
   display: inline-block;
   width: 47%;
